@@ -1,0 +1,25 @@
+{
+    "name": "Koh",
+    "version": "v0.0.0",
+    "command_name": "tokenvator",
+    "original_author": "GhostPack",
+    "repo_url": "https://github.com/NightlyEscaper/Koh",
+    "help": "The Token Stealer.",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "Koh.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "Koh.exe"
+      }
+    ]
+  }
